@@ -1,4 +1,7 @@
-# Awesome Phalcon [![Build Status](https://travis-ci.org/sergeyklay/awesome-phalcon.svg?branch=master)](https://travis-ci.org/sergeyklay/awesome-phalcon)
+# Awesome Phalcon
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Build Status](https://travis-ci.org/sergeyklay/awesome-phalcon.svg?branch=master)](https://travis-ci.org/sergeyklay/awesome-phalcon)
 
 
 A curated list of awesome Phalcon libraries and resources. Inspired by [awesome-go](https://github.com/avelino/awesome-go).
@@ -27,6 +30,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/s
     - [Exception](#exception)
     - [Forms](#forms)
     - [i18n](#i18n)
+    - [Integration](#integration)
     - [Mail](#mail)
     - [Media](#media)
     - [Miscellaneous](#miscellaneous)
@@ -63,6 +67,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/s
 
 *Various application skeletons.*
 
+* [Album O'Rama](https://github.com/phalcon/album-o-rama) - Sample modular application for the Phalcon PHP Framework
 * [Base App](https://github.com/mruz/base-app) - The base application in Phalcon PHP Framework
 * [INVO Application](https://github.com/phalcon/invo) - Sample application for the Phalcon PHP Framework
 * [nest](https://github.com/nexik/nest) - Phalcon SOLID Bootstrap for Rapid Application Development
@@ -105,6 +110,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/s
 *Command line applications & tools.*
 
 * [phalcon-console](https://github.com/viebig/phalcon-console) - Sample boostraping application for command line applications using the outstanding Phalcon PHP Framework
+* [phalcon_cron](https://github.com/temafey/phalcon_cron) - Cron manager library based on Phalcon PHP Framework
 * [php-cli-app-phalcon](https://github.com/jeteokeeffe/php-cli-app-phalcon) - Command Line Application built using Phalcon PHP Framework
 
 
@@ -171,12 +177,19 @@ Please take a quick gander at the [contribution guidelines](https://github.com/s
 * [Phalcon Translate Service](https://github.com/stanislav-web/phalcon-translate) - Phalcon Translate Service. Simple way to translate your custom part of templates
 
 
+## Integration
+
+*Integration with third party services*
+
+* [phalcon-logentries](https://github.com/sergeyklay/phalcon-logentries) - Sends log messages to the [Logentries](https://logentries.com/) log management service
+
 ## Mail
 
 *Mail services.*
 
 * [Phalcon Mailer](https://github.com/vanchelo/phalcon-mailer) - Phalcon Mailer Service
-* [Phalcon Mailer](https://github.com/phalcon-ext/mailer) - Mailer component wrapper over SwiftMailer for Phalcon Framework.
+* [Phalcon Mailer](https://github.com/phalcon-ext/mailer) - Mailer component wrapper over SwiftMailer for Phalcon Framework
+* [phalconphp-mandrill](https://bitbucket.org/tartan/phalconphp-mandrill) - Mandrill wrapper for Phalcon Framework 
 * [sendmail](https://github.com/duythien/sendmail) - Sending Confirmation Emails with Phalcon PHP Framework and Swift
 
 
@@ -205,6 +218,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/s
 *Libraries that implement Object-Relational Mapping or datamapping techniques.*
 
 * [phalcon-mssql](https://github.com/fishjerky/phalcon-mssql) - A Phalcon PHP Framework MSSQL PDO db adapter
+* [phalcon-seeder](https://github.com/SidRoberts/phalcon-seeder) - Database seeder component for Phalcon
 
 
 ## RESTful
@@ -264,7 +278,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/s
 *Conferences, Chats, Forums, etc..*
 
 * [phalcon-chat](https://github.com/sintsov/phalcon-chat) - Sample classic chat development using Phalcon PHP Framework
-* [Phosphorum](https://github.com/phalcon/forum) - The official Phalcon Forum
+* [phalcon-tip](https://github.com/zphalcon/phalcon-tip) - The source for code Phalcon Tip website
+* [phanbook](https://github.com/phanbook/phanbook/) - The source for code [Phanbook](http://phanbook.com) website
+* [Phosphorum](https://github.com/phalcon/forum) - The source for official Phalcon Forum
 
 
 ## Templating
@@ -309,6 +325,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/s
 
 * [Phalcon Forums](http://forum.phalconphp.com) - Phalcon Forums
 * [Phalcon Russian Community Chat](https://gitter.im/phalcon-rus/chat) - Russian Community Chat in Gitter.im
+* [Phanbook](http://phanbook.com/en/) - A platform for community discussion, answer question and more
 
 
 ## E-Books
@@ -331,6 +348,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/s
 * [Built With](http://builtwith.phalconphp.com) - Gallery of applications, demos and projects built with Phalcon PHP Framework
 * [Phalcon Blog](http://blog.phalconphp.com) - Phalcon Blog
 * [Phalconist](https://github.com/phalconist/phalconist) - Resources catalog for Phalcon PHP Framework on [Phalconist](http://phalconist.com)
+* [PhVer](http://zvoid.net/phver/) - Phalcon PHP Framework version release history
 
 
 ### Tutorials
